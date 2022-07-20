@@ -4,7 +4,14 @@
 
     <% @products.each do |p|%>
     <div class="col-md-3">
-        <%= p.title %>
+        <div>
+            <%= p.title%>
+        </div>
+        
+            <img src="<%= p.path_to_image %>" />
+        <div>
+        </div>
+
     </div>
     <% end %>
 
