@@ -69,3 +69,9 @@ function cart_get_orders()
 
   return orders;
 }
+
+function cancel_order()
+{
+  alert('Заказ отменен');
+  return false;
+}
